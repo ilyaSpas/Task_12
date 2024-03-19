@@ -1,2 +1,4 @@
-package org.example.joinview.exception.user;public class UserNotFoundException {
+package org.example.joinview.exception.user;
+
+public class UserNotFoundException extends RuntimeException{
 }

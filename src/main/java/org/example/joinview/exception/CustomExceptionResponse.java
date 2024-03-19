@@ -1,4 +1,4 @@
-package org.example.joinview.exception.user;
+package org.example.joinview.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
-public class UserExceptionResponse {
+public class CustomExceptionResponse {
 
     private String message;
 
